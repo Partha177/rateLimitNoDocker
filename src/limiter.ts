@@ -11,9 +11,9 @@ const requestIp = require("request-ip");
 // const redisClient = redis.createClient({ url: "redis://localhost:6379/" });
 // const redisClient = redis.createClient({ url: "redis://0.0.0.0:6379/" });
 // const redisClient = redis.createClient({ url: "redis://redis:6379" });
-const redisClient = redis.createClient(process.env.REDIS_URL);
+// const redisClient = redis.createClient(process.env.REDIS_URL);
 // const redisClient = redis.createClient({ url: "redis://redis:6379/" });
-// const redisClient = redis.createClient();
+const redisClient = redis.createClient();
 // const redisClient = redis.createClient(6379, 'redis');
 // const redisClient = redis.createClient({
 //   host: "redis",
