@@ -5,8 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "lint": "xo",
-    "tsc": "./node_modules/typescript/bin/tsc",
-    "build": "tsc",
+    "build": "./node_modules/typescript/bin/tsc",
     "dev": "concurrently \"tsc --watch\" \"nodemon --watch ./dist/src ./dist/index.js\"",
     "start": "npm run build && npm run dev"
   },
